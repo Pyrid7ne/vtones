@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:tank_block_11"
+    ]
+  },
+  "criteria": {
+    "has_tank_block_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:tank_block_11"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:tank_block_11"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tank_block_11",
+      "has_the_recipe"
+    ]
+  ]
+}

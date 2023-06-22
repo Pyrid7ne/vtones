@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:iszm_items"
+  },
+  "result": "vtones:iszm_block_1",
+  "count": 1
+}

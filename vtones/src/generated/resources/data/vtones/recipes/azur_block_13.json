@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:azur_items"
+  },
+  "result": "vtones:azur_block_13",
+  "count": 1
+}

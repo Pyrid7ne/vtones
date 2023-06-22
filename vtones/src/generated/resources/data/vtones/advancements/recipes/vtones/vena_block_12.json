@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:vena_block_12"
+    ]
+  },
+  "criteria": {
+    "has_vena_block_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:vena_block_12"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:vena_block_12"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vena_block_12",
+      "has_the_recipe"
+    ]
+  ]
+}

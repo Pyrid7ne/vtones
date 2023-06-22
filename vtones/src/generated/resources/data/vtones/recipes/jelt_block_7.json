@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:jelt_items"
+  },
+  "result": "vtones:jelt_block_7",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:glaxx_items"
+  },
+  "result": "vtones:glaxx_block_7",
+  "count": 1
+}

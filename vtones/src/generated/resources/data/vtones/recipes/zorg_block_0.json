@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:zorg_items"
+  },
+  "result": "vtones:zorg_block_0",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:cark_items"
+  },
+  "result": "vtones:cark_block_40",
+  "count": 1
+}

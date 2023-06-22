@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ses",
+    "ese",
+    "ses"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone_slab"
+    },
+    "e": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "vtones:vtone_base",
+    "count": 8
+  }
+}

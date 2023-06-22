@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:lair_block_1"
+    ]
+  },
+  "criteria": {
+    "has_lair_block_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:lair_block_1"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:lair_block_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lair_block_1",
+      "has_the_recipe"
+    ]
+  ]
+}

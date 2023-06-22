@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:reds_block_14"
+    ]
+  },
+  "criteria": {
+    "has_reds_block_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:reds_block_14"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:reds_block_14"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_reds_block_14",
+      "has_the_recipe"
+    ]
+  ]
+}

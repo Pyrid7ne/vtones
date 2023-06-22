@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:zone_block_1"
+    ]
+  },
+  "criteria": {
+    "has_zone_block_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:zone_block_1"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:zone_block_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_zone_block_1",
+      "has_the_recipe"
+    ]
+  ]
+}

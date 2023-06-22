@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:lave_block_0"
+    ]
+  },
+  "criteria": {
+    "has_lave_block_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:lave_block_0"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:lave_block_0"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lave_block_0",
+      "has_the_recipe"
+    ]
+  ]
+}

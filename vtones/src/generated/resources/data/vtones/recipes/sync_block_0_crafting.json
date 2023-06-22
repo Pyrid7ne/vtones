@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "ses",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "vtones:vtone_base"
+    },
+    "e": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "vtones:sync_block_0",
+    "count": 8
+  }
+}

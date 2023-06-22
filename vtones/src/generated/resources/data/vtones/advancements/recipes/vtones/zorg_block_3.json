@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:zorg_block_3"
+    ]
+  },
+  "criteria": {
+    "has_zorg_block_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:zorg_block_3"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:zorg_block_3"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_zorg_block_3",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:cark_block_47"
+    ]
+  },
+  "criteria": {
+    "has_cark_block_47": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:cark_block_47"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:cark_block_47"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cark_block_47",
+      "has_the_recipe"
+    ]
+  ]
+}

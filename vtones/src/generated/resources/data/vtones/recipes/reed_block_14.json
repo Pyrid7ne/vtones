@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:reed_items"
+  },
+  "result": "vtones:reed_block_14",
+  "count": 1
+}

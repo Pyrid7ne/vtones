@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:zeta_items"
+  },
+  "result": "vtones:zeta_block_10",
+  "count": 1
+}

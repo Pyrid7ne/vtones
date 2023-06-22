@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:lair_items"
+  },
+  "result": "vtones:lair_block_8",
+  "count": 1
+}

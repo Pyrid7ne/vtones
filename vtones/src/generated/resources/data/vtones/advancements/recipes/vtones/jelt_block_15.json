@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:jelt_block_15"
+    ]
+  },
+  "criteria": {
+    "has_jelt_block_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:jelt_block_15"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:jelt_block_15"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jelt_block_15",
+      "has_the_recipe"
+    ]
+  ]
+}

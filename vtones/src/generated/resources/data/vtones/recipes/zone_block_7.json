@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:zone_items"
+  },
+  "result": "vtones:zone_block_7",
+  "count": 1
+}

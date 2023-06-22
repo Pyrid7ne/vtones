@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:lave_items"
+  },
+  "result": "vtones:lave_block_3",
+  "count": 1
+}

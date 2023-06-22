@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:kryp_items"
+  },
+  "result": "vtones:kryp_block_0",
+  "count": 1
+}

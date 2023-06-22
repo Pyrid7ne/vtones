@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:zyth_block_12"
+    ]
+  },
+  "criteria": {
+    "has_zyth_block_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:zyth_block_12"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:zyth_block_12"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_zyth_block_12",
+      "has_the_recipe"
+    ]
+  ]
+}

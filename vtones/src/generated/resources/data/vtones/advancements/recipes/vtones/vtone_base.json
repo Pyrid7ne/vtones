@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:vtone_base"
+    ]
+  },
+  "criteria": {
+    "has_vtone_base": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:vtone_base"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:vtone_base"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vtone_base",
+      "has_the_recipe"
+    ]
+  ]
+}

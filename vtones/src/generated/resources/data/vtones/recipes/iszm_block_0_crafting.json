@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "ses",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "vtones:vtone_base"
+    },
+    "e": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "vtones:iszm_block_0",
+    "count": 8
+  }
+}

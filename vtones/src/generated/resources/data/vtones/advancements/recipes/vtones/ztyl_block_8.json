@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:ztyl_block_8"
+    ]
+  },
+  "criteria": {
+    "has_ztyl_block_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:ztyl_block_8"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:ztyl_block_8"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ztyl_block_8",
+      "has_the_recipe"
+    ]
+  ]
+}

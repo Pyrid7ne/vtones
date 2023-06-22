@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:myst_block_0_crafting"
+    ]
+  },
+  "criteria": {
+    "has_myst_block_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:myst_block_0"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:myst_block_0_crafting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_myst_block_0",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:roen_items"
+  },
+  "result": "vtones:roen_block_6",
+  "count": 1
+}

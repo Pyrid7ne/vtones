@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:kryp_block_7"
+    ]
+  },
+  "criteria": {
+    "has_kryp_block_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:kryp_block_7"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:kryp_block_7"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kryp_block_7",
+      "has_the_recipe"
+    ]
+  ]
+}

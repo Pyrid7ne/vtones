@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:myst_items"
+  },
+  "result": "vtones:myst_block_6",
+  "count": 1
+}

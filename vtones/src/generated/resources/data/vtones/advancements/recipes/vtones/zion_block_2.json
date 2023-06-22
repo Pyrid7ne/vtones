@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:zion_block_2"
+    ]
+  },
+  "criteria": {
+    "has_zion_block_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:zion_block_2"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:zion_block_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_zion_block_2",
+      "has_the_recipe"
+    ]
+  ]
+}

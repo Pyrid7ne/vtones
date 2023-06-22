@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "vtones:zyth_items"
+  },
+  "result": "vtones:zyth_block_13",
+  "count": 1
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vtones:agon_block_10"
+    ]
+  },
+  "criteria": {
+    "has_agon_block_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vtones:agon_block_10"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vtones:agon_block_10"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_agon_block_10",
+      "has_the_recipe"
+    ]
+  ]
+}
